@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виселица</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center"> Игра Виселица </h1>
+    <p align="center">Отгадай слово по буквам</p>
+    <table align="center" border="1" width="50%" height="100px" id="word">
+        <tr>
+            <td id="b0"></td>
+            <td id="b1"></td>
+            <td id="b2"></td>
+            <td id="b3"></td>
+            <td id="b4"></td>
+            <td id="b5"></td>
+        </tr>
+
+    </table>
+    <table id="klava" align="center" border="1">
+        <tr>
+            <td onclick="b=this.innerHTML;checkbukva(b)">й </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ц </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">у </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">к </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">е </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">н </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">г </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ш </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">щ </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">з </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">х </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ъ </td>
+        </tr>
+        <tr>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ф </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ы </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">в </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">а </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">п </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">р </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">о </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">л </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">д </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ж </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">э </td>
+        </tr>
+        <tr>
+            <td> </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">я </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ч </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">с </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">м </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">и </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">т </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ь </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">б </td>
+            <td onclick="b=this.innerHTML;checkbukva(b)">ю </td>
+            <td> </td>
+        </tr>
+    </table>
+    <img src="img/spacer.gif" alt="" id="visilica" >
+    <p align="center" id="kaznen" ></p>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виселица</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 align="center"> Игра Виселица </h1>
+    <p align="center">Отгадай слово по буквам</p>
+    <table align="center" border="1" width="50%" height="100px" id="word">
+        <tr>
+            <td id="b0"></td>
+            <td id="b1"></td>
+            <td id="b2"></td>
+            <td id="b3"></td>
+            <td id="b4"></td>
+            <td id="b5"></td>
+        </tr>
+
+    </table>
+    <p align="center" id="baton" onclick="bukva=prompt('Введите букву'); 
+    checkbukva();
+    ">Отгадать букву</p>
+    <img src="img/spacer.gif" alt="" id="visilica">
+    <p align="center" id="kaznen"></p>
+    <script src="script.js"></script>
+</body>
+
+</html>
